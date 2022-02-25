@@ -22,7 +22,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: kMirrorMaterial
   m_Shader: {fileID: 4800000, guid: d0e1b3b720bfc9f47bede98384670e0d, type: 3}
-  m_ShaderKeywords: _ENVIRONMENTREFLECTIONS_MIRROR _RECEIVE_SHADOWS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_ShaderKeywords: _EMISSION _ENVIRONMENTREFLECTIONS_MIRROR _RECEIVE_SHADOWS_OFF
+    _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -85,7 +86,7 @@ Material:
     - _AlphaClip: 0
     - _Anisotropy: 0
     - _Blend: 0
-    - _BumpScale: 1
+    - _BumpScale: 0
     - _ClearCoat: 0.669
     - _ClearCoatSmoothness: 1
     - _Cull: 2
@@ -113,9 +114,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

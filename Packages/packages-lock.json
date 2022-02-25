@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "com.kink3d.mirrors": {
-      "version": "https://github.com/Kink3d/kMirrors.git",
+      "version": "https://github.com/Tokars/kMirrors.git#issue_8",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.render-pipelines.universal": "7.x.x"
+        "com.unity.render-pipelines.universal": "10.x.x"
       },
-      "hash": "79b0526e5da06689f12a7f4846b2b568e997be35"
+      "hash": "92413d878bf069592493add540a8c0fac7d44722"
     },
     "com.kink3d.shading": {
       "version": "https://github.com/Kink3d/kShading.git#features/kmirrors-support",

@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.kink3d.mirrors": "https://github.com/Kink3d/kMirrors.git",
+    "com.kink3d.mirrors": "https://github.com/Tokars/kMirrors.git#issue_8",
     "com.kink3d.shading": "https://github.com/Kink3d/kShading.git#features/kmirrors-support",
     "com.unity.collab-proxy": "1.15.4",
     "com.unity.ide.rider": "2.0.7",
